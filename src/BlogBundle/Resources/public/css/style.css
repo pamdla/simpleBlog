@@ -1,0 +1,39 @@
+.postform input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    }
+.postform .middle{
+    margin-bottom: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    }
+.postform input[type="email"] {
+    margin-bottom: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    }
+.postform .bottom {
+    margin-bottom: 10px !important;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    }
+.postform .form-control{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+textarea .form-control{height: 300px;}
+
+.blog-masthead { background-color: #66A32D; line-height: 1.6;}
+
+.blog-nav-item {color: blue;}
+.blog-nav .active{color: #FF0;}
+

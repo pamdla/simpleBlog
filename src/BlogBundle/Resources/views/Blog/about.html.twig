@@ -1,0 +1,21 @@
+{% extends 'BlogBundle::layout.html.twig' %}
+
+{% block title %}About{% endblock%}
+
+{% block body %}
+    <div class="blog-post">
+        <h1>About this site</h1>
+        <p>this is a simple Blog site.</p>
+
+        <hr>
+
+        <h1>About me</h1>
+        <p>A programming enthusiast, developer.</p>
+    </div><!-- /.blog-post -->
+{% endblock %}
+
+{% block javascripts %}
+    {% javascripts '@BlogBundle/Resources/public/js/*' %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

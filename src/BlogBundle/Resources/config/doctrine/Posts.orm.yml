@@ -1,0 +1,39 @@
+BlogBundle\Entity\Posts:
+    type: entity
+    table: posts
+    repositoryClass: BlogBundle\Entity\PostsRepository
+    id:
+        id:
+            type: integer
+            nullable: false
+            unsigned: false
+            comment: ''
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        title:
+            type: string
+            nullable: false
+            length: 100
+            fixed: false
+            comment: ''
+        username:
+            type: string
+            nullable: false
+            length: 50
+            fixed: false
+            comment: ''
+        post:
+            type: text
+            nullable: false
+            length: null
+            fixed: false
+            comment: ''
+        created:
+            type: datetime
+            nullable: false
+            comment: ''
+        hascomment:
+            type: boolean
+    lifecycleCallbacks: {  }

@@ -1,0 +1,8 @@
+<form action="{{ path('BlogBundle_create') }}" method="post" accept-charset="UTF-8" role="form" id="postform" class="postform">
+    <fieldset>
+        <input type="text" name="title" value="" placeholder="Input title of your post" class="form-control" required>
+        <input type="email" name="email" value="" placeholder="Your email" class="form-control middle" required>
+        <textarea name="post" placeholder="Write your post here" rows="20" class="form-control bottom" required></textarea>
+        <button type="submit" class="btn btn-success btn-block" value="submit" name="submit">Submit</button>
+    </fieldset>
+</form>
