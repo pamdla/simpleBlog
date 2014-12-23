@@ -33,3 +33,7 @@ BlogBundle_show:
         _method:  GET
         id: \d+
 
+######################################################
+BlogBundle_demo:
+    path: /demo
+    defaults: { _controller: BlogBundle:Demo:index }
