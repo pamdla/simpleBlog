@@ -1,3 +1,5 @@
+body{ background-color: #DDA;}
+
 .postform input[type="text"] {
     margin-bottom: -1px;
     border-bottom-left-radius: 0;
